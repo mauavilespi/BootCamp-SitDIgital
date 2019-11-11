@@ -1,0 +1,99 @@
+HTML5 - CSS - JavaScript
+
+***********************HTML5: contenido / plantilla Etiquetas***************************
+- DOM
+- Templates
+- Canvas (lienzo)
+
+Semántico:
+- Interpreta contenido
+<p> </p> PARRAFO ~
+<h1> </h1> SUBTITULO
+<header> </header> ENCABEZADO
+<aside> </aside> A UN LADO
+<head> ... <footer> ... <h1-h6> 
+<body> ... <title> ... <img> 
+<script> ... <input>~ ... <a>~
+<form> ... <aside> ... <nav>
+<table> ... <link>~ ... <main>
+<article> ... <address> .. <button>
+
+No semántica:
+<div> </div> DIVIDIR CONTENIDO 
+
+¡¡¡Tratar siempre de que sea Semántico!!!
+
+    ------ATRIBUTO------
+<hi class = "principal"> Título Pincipal </h1>
+--------INICIO---------- CONTENIDO VISIBLE  FIN
+
+
+<meta charset= "utf-8"> Ayuda a conocer que caracteres no definidos 
+<meta name = "viewport" content = "width=device..........> Como se ve en la pantalla
+NO TIENE ETIQUETA DE FIN
+
+Unordered List
+<ul> Puntito
+Ordered List    
+<ol> Número
+*/ Comportamiento: start
+
+¿Cómo se va a leer?
+left to righ
+dir="ltr" 
+
+Navegador le pone los estilos
+
+
+
+******************CSS: parte visual / estilos**********************+
+REGLA:
+- elemento
+- clases
+- id
+
+Pseudoselectores
+    -Pseudoelemento:
+
+    -Pseudoclase:
+
+
+
+selector
+|
+p {
+    font-size: 14px;  DECLARACIÓN
+    color: #555555;
+}
+
+
+************JavaScript: dinámica / interacción con el usuario *****************
+Variables: var (dentro de la función **local**) / let(dentro de las llaves {} **local**) ÁMBITO 
+
+JavaScript no puro:
+document
+
+Funciones:
+function *NombreDeLaFunción* ()
+
+elem.append <-----
+
+try(){ <-----
+    cath();
+}
+
+
+querySelector (Busca identificador)
+Obtener dato
+document.querySelector <----- (Navegador)
+
+JSON.stringify <-----
+
+add.event.listener('click', function())
+
+en vez de concatenar ====== $(**expresión**)
+
+
+
+
+

@@ -1,0 +1,39 @@
+img{
+    width: 200px;
+    height: 120px;
+    padding: 25px 25px 25px 25px;
+}
+
+.sub{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;   
+}
+
+.margen{
+    border: 1px solid silver;
+    padding: 30px 30px 30px 30px; /*top right bottom left*/    
+
+}
+
+main{
+    display: flex;
+}
+
+.precio{
+    font-size: 15px;
+    color: green;
+}
+
+.des{
+    width: 250px;
+}
+
+.boton{
+    margin-left: 75px;
+    color: white;
+    background-color: green;
+    box-shadow: 0 3px #666;
+}
