@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    background-color: darkcyan;
+    justify-content: flex-start;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
